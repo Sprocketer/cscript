@@ -1,4 +1,4 @@
-# Crypt
+# Cscript
 
 A Python library for rapidly creating circuit images.
 

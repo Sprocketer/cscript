@@ -11,13 +11,13 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
 VERSION = '{{VERSION_PLACEHOLDER}}'
 
 # CHANGEME VARS
-PACKAGE_NAME = "crypt"
+PACKAGE_NAME = "cscript"
 DESCRIPTION = 'A rapid circuit creation library.'
 AUTHOR_NAME = "Alex"
 AUTHOR_EMAIL = "sprocketerdev@gmail.com"
-PROJECT_URL = "https://github.com/Sprocketer/crypt"
+PROJECT_URL = "https://github.com/Sprocketer/cscript"
 REQUIRED_PACKAGES = ['numpy'] # required 3rd party tools used by your package
-PROJECT_KEYWORDS = ['pypi', 'python', 'automation', 'cicd']
+PROJECT_KEYWORDS = ['pypi', 'python']
 # Read more about classifiers at
 # https://pypi.org/classifiers/
 CLASSIFIERS = [
