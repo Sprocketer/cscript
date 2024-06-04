@@ -7,18 +7,15 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-# This gets deployed when a new release is made by github actions
 VERSION = '{{VERSION_PLACEHOLDER}}'
 
-# CHANGEME VARS
 PACKAGE_NAME = "cscript"
 DESCRIPTION = 'A rapid circuit creation library.'
 AUTHOR_NAME = "Alex"
 AUTHOR_EMAIL = "sprocketerdev@gmail.com"
 PROJECT_URL = "https://github.com/Sprocketer/cscript"
-REQUIRED_PACKAGES = ['numpy'] # required 3rd party tools used by your package
+# REQUIRED_PACKAGES = []
 PROJECT_KEYWORDS = ['pypi', 'python']
-# Read more about classifiers at
 # https://pypi.org/classifiers/
 CLASSIFIERS = [
         "Development Status :: 1 - Planning",
@@ -38,7 +35,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=REQUIRED_PACKAGES,
+    # install_requires=REQUIRED_PACKAGES,
     keywords=PROJECT_KEYWORDS,
     classifiers=CLASSIFIERS
 )
